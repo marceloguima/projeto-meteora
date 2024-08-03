@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+
+.div-facilidades {
+    width: 325px;
+}
+
+.btn {
+    background-color: rgb(143, 67, 230);
+    color: #f7f7f7;
+    border: none;
+}
+
+.btn:hover {
+    border: solid 1px rgb(143, 67, 230);
+    background-color: #f7f7f7;
+    width: 85px;
+    padding: 5px;
+}
+
+.posicao {
+    top: 40%;
+}
+
+@media(max-width: 767px) {
+    .posicao {
+        top: 60%;
+    }
+}
+
+.card {
+    border: solid 1px rgb(143, 67, 230);
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+form {
+    border: solid 1px rgb(143, 67, 230);
+}
